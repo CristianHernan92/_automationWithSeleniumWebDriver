@@ -1,0 +1,44 @@
+# --- MAVEN ---
+# Ignora la carpeta target donde Maven compila el código y mete los reportes temporales
+**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.releaseBackup
+release.properties
+dependency-reduced-pom.xml
+build.log
+cleanLog.txt
+
+# --- ECLIPSE ---
+# Ignora los archivos de configuración local de Eclipse que varían según la computadora
+**/.metadata/
+**/RemoteSystemsTempFiles/
+**/.recommenders/
+**/.settings/
+**/.project
+**/.classpath
+**/bin/
+
+# --- SELENIUM & DRIVERS ---
+# Ignora carpetas comunes donde se suelen guardar los ejecutables de los drivers (.exe, .dmg)
+**/driver/
+**/drivers/
+*.exe
+*.dll
+*.log
+**/logs/
+
+# --- ARCHIVOS DEL SISTEMA / IDEs ALTERNATIVOS ---
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# IntelliJ (por si algún día abres el proyecto ahí)
+**/.idea/
+**/*.iml
+**/*.iws
